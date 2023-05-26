@@ -14,15 +14,19 @@ const Home = (props) => {
       <div data-role="Header" className="home-navbar-container">
         <div className="home-navbar">
           <img
-            src="/ya%C3%A4%C2%9F%C3%A4%C2%B1z-logos_black-200h.png"
             alt="image"
+            src="/ya%C3%A4%C2%9F%C3%A4%C2%B1z-logos_black-200h.png"
             className="home-image"
           />
           <div className="home-links-container">
-            <span className="home-link Navbar-Link">Hakkımda</span>
-            <span className="home-link1 Navbar-Link">Deneyimlerim</span>
-            <span className="home-link2 Navbar-Link">Portfolyom</span>
-            <span className="Navbar-Link">İletişim</span>
+            <a href="#hakkimda" className="home-link Navbar-Link">
+              Hakkımda
+            </a>
+            <span className="home-link01 Navbar-Link">Deneyimlerim</span>
+            <span className="home-link02 Navbar-Link">Portfolyom</span>
+            <span id="iletisim" className="Navbar-Link">
+              İletişim
+            </span>
           </div>
           <div data-role="BurgerMenu" className="home-burger-menu">
             <svg viewBox="0 0 1024 1024" className="home-icon">
@@ -39,9 +43,9 @@ const Home = (props) => {
               </div>
             </div>
             <div className="home-links-container1">
-              <span className="home-link4 Navbar-Link">About</span>
-              <span className="home-link5 Navbar-Link">Experience</span>
-              <span className="home-link6 Navbar-Link">Portofolio</span>
+              <span className="home-link04 Navbar-Link">About</span>
+              <span className="home-link05 Navbar-Link">Experience</span>
+              <span className="home-link06 Navbar-Link">Portofolio</span>
               <span className="Navbar-Link">Contact</span>
             </div>
           </div>
@@ -61,7 +65,7 @@ const Home = (props) => {
             </span>
             <div className="home-cta-btn-container">
               <button className="home-cta-btn Anchor button">
-                <span className="home-text01">Hakkımda</span>
+                <span className="home-text1">Hakkımda</span>
               </button>
               <button className="home-cta-btn1 button">Çalışmalarım</button>
             </div>
@@ -69,24 +73,37 @@ const Home = (props) => {
         </div>
       </div>
       <div className="home-section-separator2"></div>
+      <div className="home-hakkmda">
+        <span id="hakkimda" className="home-text2">
+          Hakkımda
+        </span>
+        <span className="home-text3">
+          Hello, I&apos;m Talha Yiğit Yağız. I am studying Physics at Yıldız
+          Technical University. I am working to specialize in areas such as
+          computers and software.
+        </span>
+      </div>
       <div className="home-section-separator3"></div>
       <div className="home-section-separator4"></div>
       <div className="home-section-separator5"></div>
       <div className="home-subscribe">
         <div className="home-container3">
           <div className="home-heading-container">
-            <h1 className="home-text02 Section-Heading">İletişim Bilgilerim</h1>
-            <span className="home-text03">
-              <span className="Section-Text home-text04">
+            <h1 id="iletisim" className="home-text4 Section-Heading">
+              İletişim Bilgilerim
+            </h1>
+            <a href="tel:+905419236616" className="home-link08">
+              <span className="Section-Text home-text5">
                 Telefon: +90 541 923 66 16
               </span>
               <br></br>
-              <span className="Section-Text">
-                Mail: talhayigityagiz@gmail.com
-              </span>
-              <br className="Section-Text"></br>
-              <br></br>
-            </span>
+            </a>
+            <a
+              href="mailto:talhayigityagiz@gmail.com?subject=İletişim"
+              className="home-link09"
+            >
+              Mail: talhayigityagiz@gmail.com
+            </a>
           </div>
         </div>
       </div>
