@@ -24,9 +24,9 @@ const Home = (props) => {
             </a>
             <span className="home-link01 Navbar-Link">Deneyimlerim</span>
             <span className="home-link02 Navbar-Link">Portfolyom</span>
-            <span id="iletisim" className="Navbar-Link">
+            <a href="#iletisim" className="home-link03 Navbar-Link">
               İletişim
-            </span>
+            </a>
           </div>
           <div data-role="BurgerMenu" className="home-burger-menu">
             <svg viewBox="0 0 1024 1024" className="home-icon">
@@ -64,34 +64,34 @@ const Home = (props) => {
               computers and software.
             </span>
             <div className="home-cta-btn-container">
-              <button className="home-cta-btn Anchor button">
+              <a href="#hakkimda" className="home-cta-btn Anchor button">
                 <span className="home-text1">Hakkımda</span>
-              </button>
-              <button className="home-cta-btn1 button">Çalışmalarım</button>
+              </a>
+              <a href="#iletisim" className="home-cta-btn1 button">
+                İletişim
+              </a>
             </div>
           </div>
         </div>
       </div>
       <div className="home-section-separator2"></div>
+      <div className="home-section-separator3"></div>
+      <div id="hakkimda" className="home-container3"></div>
       <div className="home-hakkmda">
-        <span id="hakkimda" className="home-text2">
-          Hakkımda
-        </span>
+        <strong className="home-text2">Hakkımda</strong>
         <span className="home-text3">
           Hello, I&apos;m Talha Yiğit Yağız. I am studying Physics at Yıldız
           Technical University. I am working to specialize in areas such as
           computers and software.
         </span>
       </div>
-      <div className="home-section-separator3"></div>
       <div className="home-section-separator4"></div>
       <div className="home-section-separator5"></div>
+      <div id="iletisim" className="home-container4"></div>
       <div className="home-subscribe">
-        <div className="home-container3">
+        <div className="home-container5">
           <div className="home-heading-container">
-            <h1 id="iletisim" className="home-text4 Section-Heading">
-              İletişim Bilgilerim
-            </h1>
+            <h1 className="home-text4 Section-Heading">İletişim Bilgilerim</h1>
             <a href="tel:+905419236616" className="home-link08">
               <span className="Section-Text home-text5">
                 Telefon: +90 541 923 66 16
