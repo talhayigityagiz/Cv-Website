@@ -73,6 +73,9 @@
   border-radius: 4px;
   background-color: var(--dl-color-gray-white);
 }
+.hero {
+  cursor: pointer;
+}
 .Section-Text {
   font-size: 18px;
   font-family: Playfair Display;
