@@ -51,11 +51,10 @@ const Home = (props) => {
       <div className="home-section-separator"></div>
       <div className="home-section-separator1"></div>
       <div className="home-container02">
-        <div id="hakkimda" className="home-container03"></div>
         <div className="home-hero">
           <img alt="image" src="/photo-400w.jpg" className="home-image1" />
           <h1 className="home-heading1">Talha Yiğit Yağız</h1>
-          <div className="home-container04">
+          <div className="home-container03">
             <div className="home-hero-text-container">
               <div className="home-cta-btn-container">
                 <a href="#iletisim" className="home-cta-btn button">
@@ -94,12 +93,13 @@ const Home = (props) => {
                 <span>and software.</span>
               </span>
             </div>
-            <button className="home-cta-btn1 Anchor button">
+            <a href="#hakkimda" className="home-cta-btn1 Anchor button">
               <span className="home-text09">About</span>
-            </button>
+            </a>
           </div>
         </div>
       </div>
+      <div id="hakkimda" className="home-container04"></div>
       <div className="home-section-separator2"></div>
       <div className="home-section-separator3"></div>
       <div className="home-hakkmda">
