@@ -55,51 +55,48 @@ const Home = (props) => {
       <div className="home-container03">
         <div className="home-hero">
           <img alt="image" src="/photo-400w.jpg" className="home-image1" />
-          <div className="home-hero-text-container">
-            <h1 className="home-heading1">Talha Yiğit Yağız</h1>
-            <div className="home-cta-btn-container">
-              <a href="#iletisim" className="home-cta-btn button">
-                Contact
-              </a>
+          <h1 className="home-heading1">Talha Yiğit Yağız</h1>
+          <div className="home-container04">
+            <div className="home-hero-text-container">
+              <div className="home-cta-btn-container">
+                <a href="#iletisim" className="home-cta-btn button">
+                  Contact
+                </a>
+              </div>
+              <span className="home-text">
+                <span>
+                  Hello, I&apos;m Talha Yiğit Yağız.
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: ' ',
+                    }}
+                  />
+                </span>
+                <span>
+                  I am studying Physics at
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: ' ',
+                    }}
+                  />
+                </span>
+                <span>Yıldız Technical University.</span>
+                <br></br>
+                <span> I am working to specialize </span>
+                <span>
+                  in areas
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: ' ',
+                    }}
+                  />
+                </span>
+                <span>such as computers </span>
+                <span>and software.</span>
+              </span>
             </div>
-            <span className="home-text">
-              <span>
-                Hello, I&apos;m Talha Yiğit Yağız.
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: ' ',
-                  }}
-                />
-              </span>
-              <br></br>
-              <span>
-                I am studying Physics at
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: ' ',
-                  }}
-                />
-              </span>
-              <br></br>
-              <span>Yıldız Technical University.</span>
-              <br></br>
-              <span> I am working to specialize</span>
-              <br></br>
-              <span>
-                {' '}
-                in areas
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: ' ',
-                  }}
-                />
-              </span>
-              <span>such as computers</span>
-              <br></br>
-              <span> and software.</span>
-            </span>
             <a href="#hakkimda" className="home-cta-btn1 Anchor button">
-              <span className="home-text13">About</span>
+              <span className="home-text09">About</span>
             </a>
           </div>
         </div>
@@ -107,8 +104,8 @@ const Home = (props) => {
       <div className="home-section-separator2"></div>
       <div className="home-section-separator3"></div>
       <div className="home-hakkmda">
-        <strong className="home-text14 Section-Heading">About</strong>
-        <span className="home-text15">
+        <strong className="home-text10 Section-Heading">About</strong>
+        <span className="home-text11">
           Hello, I&apos;m Talha Yiğit Yağız. I am studying Physics at Yıldız
           Technical University. I am working to specialize in areas such as
           computers and software.
@@ -116,15 +113,15 @@ const Home = (props) => {
       </div>
       <div className="home-section-separator4"></div>
       <div className="home-section-separator5"></div>
-      <div id="deneyim" className="home-container04"></div>
+      <div id="deneyim" className="home-container05"></div>
       <div className="home-deneyim">
-        <span className="home-text16 Section-Heading">Experiences</span>
+        <span className="home-text12 Section-Heading">Experiences</span>
         <div className="home-steps">
-          <div className="home-container05">
+          <div className="home-container06">
             <div className="home-step">
-              <div className="home-container06">
-                <h1 className="home-text17">Python Jump</h1>
-                <span className="home-text18">
+              <div className="home-container07">
+                <h1 className="home-text13">Python Jump</h1>
+                <span className="home-text14">
                   <span>
                     Lorem ipsum dolor sit amet, consectetur adipiscing.
                   </span>
@@ -134,9 +131,9 @@ const Home = (props) => {
               </div>
             </div>
             <div className="home-step1">
-              <div className="home-container07">
-                <h1 className="home-text21">Sky-Sec</h1>
-                <span className="home-text22">
+              <div className="home-container08">
+                <h1 className="home-text17">Sky-Sec</h1>
+                <span className="home-text18">
                   <span>
                     Lorem ipsum dolor sit amet, consectetur adipiscing.
                   </span>
@@ -146,9 +143,9 @@ const Home = (props) => {
               </div>
             </div>
             <div className="home-step2">
-              <div className="home-container08">
-                <h1 className="home-text25">YetGen</h1>
-                <span className="home-text26">
+              <div className="home-container09">
+                <h1 className="home-text21">YetGen</h1>
+                <span className="home-text22">
                   <span>
                     Lorem ipsum dolor sit amet, consectetur adipiscing.
                   </span>
@@ -161,10 +158,10 @@ const Home = (props) => {
         </div>
       </div>
       <div className="home-section-separator6"></div>
-      <div id="iletisim" className="home-container09"></div>
+      <div id="iletisim" className="home-container10"></div>
       <div className="home-subscribe">
-        <div className="home-container10"></div>
-        <h1 className="home-text29 Section-Heading">Contact</h1>
+        <div className="home-container11"></div>
+        <h1 className="home-text25 Section-Heading">Contact</h1>
         <a
           href="mailto:talhayigityagiz@gmail.com?subject=İletişim"
           className="home-link08"
